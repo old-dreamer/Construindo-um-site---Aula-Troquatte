@@ -1,4 +1,11 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Componentes */
 @import './header.css';
+@import './buttons.css';
+
+/* RESET do CSS */
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +13,6 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;  /* retirou o sublinhado do menu */
+    font-family: "Source Sans 3", sans-serif;
 }

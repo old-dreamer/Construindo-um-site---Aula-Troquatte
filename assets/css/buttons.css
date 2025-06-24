@@ -1,0 +1,9 @@
+.btn {
+    padding: 5px 30px;  /* 5px em cima e embaixo e 30px nas laterais */
+}
+
+.btn.btn-laranja {
+    background: orangered;
+    color: white;
+    border-radius: 20px;
+}
