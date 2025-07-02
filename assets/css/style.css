@@ -4,6 +4,7 @@
 /* Componentes */
 @import './header.css';
 @import './buttons.css';
+@import './main.css';
 
 /* RESET do CSS */
 * {
@@ -15,6 +16,7 @@
     vertical-align: baseline;
     text-decoration: none;  /* retirou o sublinhado do menu */
     font-family: "Source Sans 3", sans-serif;
+    font-weight: 300;
 }
 
 .container {
