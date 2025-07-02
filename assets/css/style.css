@@ -16,3 +16,15 @@
     text-decoration: none;  /* retirou o sublinhado do menu */
     font-family: "Source Sans 3", sans-serif;
 }
+
+.container {
+    width: 1024px;
+    margin: 30px auto;    /* colocou 30px em cima e embaixo. Essa class container entrou no header e no main */
+    display: flex;
+    flex-direction: column; /* aqui ele criou uma section dentro do header e fez comando header section { */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}

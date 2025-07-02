@@ -1,9 +1,4 @@
-header {
-  width: 1024px;
-  margin: 30px auto;    /* colocou 30px em cima e embaixo */
-
-  display: flex;
-  flex-direction: row;
+header section {
   justify-content: space-between;
   align-items: center;
 }
@@ -12,9 +7,12 @@ header {
         display: flex;
         flex-direction: row;
         list-style: none;   /* Retirou as bolinhas do menu */
+        /* FALTOU AQUI UM align-items: center; que ele disse que vai dar um problema lá adiante */
     }
 
     header nav ul li a {
         margin: 0 15px;
         color: blue;
     }
+
+   
