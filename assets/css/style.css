@@ -5,6 +5,7 @@
 @import './header.css';
 @import './buttons.css';
 @import './main.css';
+@import './footer.css';
 
 /* RESET do CSS */
 * {
@@ -17,6 +18,7 @@
     text-decoration: none;  /* retirou o sublinhado do menu */
     font-family: "Source Sans 3", sans-serif;
     font-weight: 300;
+    list-style: none;   /* Retirou as bolinhas do menu */
 }
 
 .container {
@@ -24,6 +26,12 @@
     margin: 30px auto;    /* colocou 30px em cima e embaixo. Essa class container entrou no header e no main */
     display: flex;
     flex-direction: column; /* aqui ele criou uma section dentro do header e fez comando header section { */
+}
+
+body {
+    background-image: url("../images/bolha-background.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .row {
