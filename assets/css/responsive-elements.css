@@ -54,6 +54,28 @@
 
 @media (max-width: 540px) {
     .container {
-        width: 300px;
+        width: 290px;
+    }
+
+    header nav {
+        background: white;
+        width: 100%;
+        padding: 10px 0 20px;
+        box-shadow: 0 10px 10px rgba(0,0,0, 0.5);
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 200px;
     }
 }
